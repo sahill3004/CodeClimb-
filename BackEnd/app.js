@@ -4,6 +4,7 @@ const userRouter = require('./routes/userRoute.js');
 
 
 const port = 5000;
+connectDB();
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
